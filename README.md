@@ -28,7 +28,7 @@ The final model I traiined is here:
 
 ## Train
 ### Train model
-To train models, run following commands.
+To train models, run following commands. Remember to change the data_dir.
 ```
 $ python train.py --use-cuda --iters -1 --dataset coco --epochs 40
 ```
@@ -37,7 +37,7 @@ The pretrained model on the ImageNet is loaded.
 Note that all hyper parameters are set done in the train.py.
 
 ## Test
-Run following commands to generate the submission.json file of the testing results.
+Run following commands to generate the submission.json file of the testing results. Remember to change the data_dir.
 ```
 $ python test.py
 ```
